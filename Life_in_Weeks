@@ -1,0 +1,11 @@
+age = input("What is your current age? ")
+
+days = (365 * int(age))
+days_1 = (32850 - days)
+
+weeks = (52 * int(age))
+weeks_1 = (4680 - weeks)
+
+months = (12 * int(age))
+months_1 = (1080 - months)
+print(f"You have {days_1} days, {weeks_1} weeks, and {months_1} months left." )
